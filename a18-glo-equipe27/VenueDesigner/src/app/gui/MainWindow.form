@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="app.gui.MainWindow">
+  <grid id="27dc6" binding="panelMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="896" height="451"/>
+    </constraints>
+    <properties>
+      <minimumSize width="50" height="50"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="d40ef" binding="buttonTopPanel" layout-manager="GridLayoutManager" row-count="1" column-count="19" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties>
+          <focusable value="true"/>
+          <preferredSize width="400" height="60"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="68a31" layout-manager="GridLayoutManager" row-count="2" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="20" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="4" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="400" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="6c9fb" class="javax.swing.JButton" binding="stage">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <icon value="assets/rectangle_red.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="49a81" class="javax.swing.JButton" binding="regSeatedSection">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <icon value="assets/rectangle.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="2d947" class="javax.swing.JButton" binding="irregularSeatedSectionButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <icon value="assets/polyline.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b7f82" class="javax.swing.JButton" binding="standingSectionButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <icon value="assets/bluepolyline.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="feab4" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="10"/>
+                  <text value="Stage"/>
+                </properties>
+              </component>
+              <component id="704" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="10"/>
+                  <text value="Seated Section"/>
+                </properties>
+              </component>
+              <component id="93a6d" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="10"/>
+                  <text value="Standing Section"/>
+                </properties>
+              </component>
+              <hspacer id="63fee">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="10" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+              <hspacer id="538d0">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                    <preferred-size width="10" height="-1"/>
+                  </grid>
+                </constraints>
+              </hspacer>
+            </children>
+          </grid>
+          <grid id="45073" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="3ac4" class="javax.swing.JButton" binding="undo">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <icon value="assets/undo.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="c62f6" class="javax.swing.JButton" binding="redo">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <icon value="assets/redo.png"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="8708a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value=" "/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <scrollpane id="79245" binding="mainScrollPane">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <preferredSize width="500" height="500"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="15681" class="app.gui.DrawingPanel" binding="drawingPanel" custom-create="true">
+            <constraints/>
+            <properties>
+              <autoscrolls value="false"/>
+              <minimumSize width="5000" height="5000"/>
+              <preferredSize width="5000" height="5000"/>
+            </properties>
+          </component>
+        </children>
+      </scrollpane>
+      <grid id="46c89" binding="tablePanel" layout-manager="GridLayoutManager" row-count="4" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="cdf8c" class="javax.swing.JButton" binding="leftRotateButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <icon value="assets/rotate_left.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="35280" class="javax.swing.JButton" binding="editButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <text value="   Edit     "/>
+            </properties>
+          </component>
+          <vspacer id="2d0bd">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="11" height="388"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="7a83a" class="javax.swing.JButton" binding="removeButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <text value="Remove"/>
+            </properties>
+          </component>
+          <component id="6c5ac" class="javax.swing.JButton" binding="rightRotateButton">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <focusable value="false"/>
+              <icon value="assets/rotate_right.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b440b" class="javax.swing.JCheckBox" binding="autoSeatCheckBox">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Auto Seat Distribution"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2a38a" binding="buttonBottomPanel" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="South"/>
+        <properties>
+          <minimumSize width="-1" height="-1"/>
+          <preferredSize width="512" height="35"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="d7ba9" binding="leftPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="b5790" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Grid"/>
+                </properties>
+              </component>
+              <component id="840ad" class="javax.swing.JSlider" binding="sliderGrid" custom-create="true">
+                <constraints/>
+                <properties/>
+              </component>
+              <component id="f4878" class="javax.swing.JButton" binding="onButton" default-binding="true">
+                <constraints/>
+                <properties>
+                  <focusable value="false"/>
+                  <preferredSize width="78" height="20"/>
+                  <text value="On"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="91c92" binding="RightPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="85edb" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Zoom"/>
+                </properties>
+              </component>
+              <component id="755bd" class="javax.swing.JSlider" binding="sliderZoom" custom-create="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="createFruitButtonGroup">
+      <member id="4203"/>
+      <member id="3e089"/>
+    </group>
+  </buttonGroups>
+</form>
